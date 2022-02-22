@@ -1,7 +1,7 @@
 ﻿
 title:  解决yelee模板下live2d看板娘和busuanzi不蒜子计数冲突
 categories: [Yelee]
-tags: [problem-resolve,node-js]
+tags: [problem_resolve,node-js]
 
 ---
 今天强迫症又双发作，这次没忍住，折腾了下。重于把hexo-helper-live2d 与busuanzi 两个插件共存时产生冲突的问题解决了。<!--more-->

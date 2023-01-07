@@ -1,11 +1,10 @@
-﻿
 ---
 title:  how2heap-decrypt_safe_linking学习
 categories: [CTF]
 tags: [pwn]
 
 ---
-在2.32glibc中，新增的防护之指针异或加密机制到 fastbin 和 tcache 当中，将 pos >> 12 后的值 key，与原来的 next 进行异或，作为新的 next 值。
+在2.32glibc中，新增的防护之指针异或加密机制到 fastbin 和 tcache 当中，将 pos >> 12 后的值 key，与原来的 next 进行异或，作为新的 next 值。<!--more-->
 
 ## 新机制说明
 
@@ -260,3 +259,4 @@ decrypt(0x0055500000cd89)
 https://research.checkpoint.com/2020/safe-linking-eliminating-a-20-year-old-malloc-exploit-primitive/  机制介绍
 
 https://www.researchinnovations.com/post/bypassing-the-upcoming-safe-linking-mitigation 机制绕过
+

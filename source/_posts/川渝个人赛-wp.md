@@ -1,6 +1,5 @@
-﻿
 ---
-title: 2020川渝个人赛-wp
+title: 2022川渝个人赛-wp
 categories: [CTF]
 tags: [wp,pwn,re]
 

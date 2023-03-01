@@ -1,8 +1,8 @@
-﻿title:  对linux 命令执行的总结
+﻿title:  ELF文件解析--ELF header 分析
 categories: [ELF]
 tags: [code,Linux]
 ---
-## ELF文件解析--ELF header 分析
+
 
 `ELF` 是`Executable and Linking Format`的缩写，即可执行和可链接的格式，是`Unix/Linux`系统`ABI (Application Binary Interface)`规范的一部分。`Unix/Linux`下的可执行二进制文件、目标代码文件、共享库文件和core dump文件都属于`ELF`文件。<!--more-->
 

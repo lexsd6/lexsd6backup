@@ -58,7 +58,15 @@
   <% if (!index){ %>
     <%- partial('post/nav') %>
   <% } %>
+
+  <!-- code.copy.start -->
+	<%- js('/js/clipboard.js') %>
+	<%- js('/js/jquery.min.js') %>
+	<%- js('/js/clipboard_use.js') %>
+  <!-- code.copy.end -->
+
 </article>
+
 <%- partial('_partial/toc') %>
 
 <% if (!index && theme.share.on && (post.share != false || post.share)){ %>
